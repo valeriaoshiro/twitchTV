@@ -1,0 +1,155 @@
+/*
+Color pallet:
+baby blue: #8fd8d2
+peach: #fedcd2
+dark peach: #FFAA91
+warm orange: #df744a
+lemon: #dcb239
+
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background-color: #fedcd2;
+  margin: 2% 2%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 2%;
+  background-color: #fff;
+  border: 1px solid #FFAA91;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-bottom: 2%;
+  align-items: center;
+}
+h1 {
+  font-size: 150%;
+}
+h2 {
+  font-size: 110%;
+}
+ul {
+  display: flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  margin-left: 5%;
+}
+li {
+  display: inline-block;
+  padding-bottom: 10%;
+}
+button {
+  padding: 8%;
+  decoration: none;
+  border: 1px solid #FFAA91;
+  background: #fedcd2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  width: 100px;
+}
+button:hover {
+  background: #FFAA91;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  padding: 2%;
+  padding-right: 5%;
+  background-color: #fff;
+  margin-bottom: 1%;
+  
+}
+img {
+  width: 8%;
+  height: 8%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+a {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  flex-grow: 1;
+  text-align: right;
+  display: inline-block;
+}
+.online {
+  background-color: #CFFEF0;
+  border: 1px solid #03EBA6;
+}
+
+.offline {
+  background-color: #FFA8A8;
+  border: 1px solid #FF4848;
+}
+.doesntExist {
+  background-color: #CFCFC4;
+  border: 1px solid #84847d;
+}
+#name {
+  color: #000;
+  display: block;
+  text-align: center;
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
+/*
+@media (min-width: 600px) { /*for tablets*/
+/* 	body {
+		padding: 2% 25% 2% 25%;
+	}
+}*/
+@media (min-width: 992px) {  /*for desktops*/
+	body {
+		margin: 2% 10%;
+	}
+  ul {
+    flex-direction: row;
+    margin-left: 0;
+  }
+  li {
+    padding-left: 6%;
+    padding-bottom: 0%;
+  }
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    font-size: 150%;
+  }
+} 
