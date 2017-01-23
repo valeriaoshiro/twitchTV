@@ -136,7 +136,7 @@ p {
 }*/
 @media (min-width: 992px) {  /*for desktops*/
 	body {
-		margin: 2% 10%;
+		margin: 2% 25%;
 	}
   ul {
     flex-direction: row;
